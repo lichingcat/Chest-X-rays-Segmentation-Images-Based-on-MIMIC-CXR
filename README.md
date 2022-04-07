@@ -3,18 +3,14 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-
+We implement the segementation model on MIMIC-CXR-JPG to generation lung-segmentation images.
 This is the example code of displaying the image and using the lung image as mask on its original chest radiograph.
-The images used in this repository are from [https://example.com](https://example.com).
+The images used in this repository are from [https://physionet.org/content/mimic-cxr-jpg/2.0.0/](https://physionet.org/content/mimic-cxr-jpg/2.0.0/).
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 The Example.ipynb contains the code for displaying the example image.
-
-
-
-
+You can also find the source code for segmenting the MIMIC-CXR in Segmentation.ipynb. Noted that the original chest radiographs were from MIMIC-CXR-JPG (https://physionet.org/content/mimic-cxr-jpg/2.0.0/) which were stored in the TFRecord format for processing. The segmentation model was from https://github.com/IlliaOvcharenko/lung-segmentation.
 
 <!-- CONTACT -->
 ## Contact
